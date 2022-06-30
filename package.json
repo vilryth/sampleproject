@@ -1,0 +1,21 @@
+{
+  "name": "projectsample",
+  "version": "1.0.0",
+  "description": "Sample project for BrowserStack",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio ./conf/localBrowserStackAndroid_1.conf.js --reporter spec"
+  },
+  "keywords": [],
+  "author": "Veselin Angelov",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/browserstack-service": "^7.20.5",
+    "@wdio/cli": "^7.20.5",
+    "@wdio/local-runner": "^7.20.5",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2"
+  }
+}

@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Test" type="NodeJSConfigurationType" application-parameters="./conf/localBrowserStackAndroid_1.conf.js" path-to-js-file="node_modules/@wdio/cli/bin/wdio.js" working-dir="$PROJECT_DIR$">
+    <method v="2" />
+  </configuration>
+</component>
